@@ -1,9 +1,5 @@
 -- Active: 1790185795336@@127.0.0.1@5432@superstore
-
-/*SELECT * FROM customers 
-WHERE city LIKE 'Berlin';*/
-
---CREATE DATABASE superstore
+CREATE DATABASE superstore;
 
 CREATE TABLE customers (
     customer_id VARCHAR(20) PRIMARY KEY,
