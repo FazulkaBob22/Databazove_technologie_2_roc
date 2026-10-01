@@ -22,3 +22,6 @@ CREATE TABLE flourmills_sales(
     production_date DATE,
     total_amount NUMERIC(12,2)
 )
+
+SELECT * FROM flourmills_sales
+ORDER BY sales_id DESC; 
