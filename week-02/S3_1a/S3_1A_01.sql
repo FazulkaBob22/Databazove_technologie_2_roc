@@ -8,4 +8,6 @@ GROUP BY c.customer_id
 HAVING SUM(o.sales) > 2000
 ;
 
-SELECT * FROM high_value_customers
+DROP VIEW high_value_customers;
+
+SELECT * FROM high_value_customers;
