@@ -5,7 +5,6 @@ FROM orders o
 INNER JOIN customers c ON c.customer_id = o.customer_id
 GROUP BY c.region, date_trunc('month', order_date);
 
-DROP VIEW regional_monthly_sales;
 
 SELECT * FROM regional_monthly_sales
 WHERE region = 'West'
