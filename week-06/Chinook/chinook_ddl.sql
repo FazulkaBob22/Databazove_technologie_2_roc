@@ -1,7 +1,3 @@
-CREATE TABLE dim_genre(
-    iddim_genre INT PRIMARY KEY,
-    name VARCHAR(120) NOT NULL
-);
 CREATE TABLE dim_track(
     iddim_track INT PRIMARY KEY,
     name VARCHAR(200) NOT NULL,
