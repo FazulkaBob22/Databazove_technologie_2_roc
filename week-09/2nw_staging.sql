@@ -76,7 +76,7 @@ SELECT
     TRIM(phone) AS phone
 FROM bronze.suppliers;
 
--- Basic row-count checks
+
 SELECT 'categories' AS table_name, COUNT(*) AS row_count FROM silver.stg_categories
 UNION ALL SELECT 'customers', COUNT(*) FROM silver.stg_customers
 UNION ALL SELECT 'employees', COUNT(*) FROM silver.stg_employees
